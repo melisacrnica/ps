@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&display=swap');
 *{
     margin: 0;
+    font-family:'Lato', sans-serif;
 }
 
 .body{
     margin: 0;
     padding: 0;
-    font-family: "Roboto", serif !important;
 }
 
 li {
@@ -13,22 +15,13 @@ li {
     margin: 0 10px;
 }
 
-a {
+a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
 
 .navbar .logo{
-    margin:20px;
     height: 80px;
-}
-
-.navbar{
-    background-color: #133667;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 20px;
-    max-height: 10vh;
 }
 
 .porfolio-navbar-links {
@@ -36,54 +29,168 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:30%;
     font-size: 30px;
 }
 
-.footer {
+.porfolio-navbar-links li { 
+    padding: 0 50px;
+    border-right: 5px solid white;
+    transition: all .2s ease-in-out;
+}
+
+.porfolio-navbar-links li:last-child{
+    border-right: none;
+}
+
+.porfolio-navbar-links li:hover{ 
+    color: rgb(233, 231, 231);
+    border-right: 5px solid rgb(231, 231, 231);
+    transform: scale(1.1);
+}
+
+.porfolio-navbar-links li:last-child:hover{ 
+    border-right: none;
+}
+
+.footer{
     background-color: #133667;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.footer-links {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 0 40%;
-    height: 10vh;
-    
+    margin: 0 40% 20px 40%;
+    padding: 20px 0;
 }
 
-.footer .logo{
+.footer-links .logo{
     height : 40px;
-    filter:  brightness(0) invert(1);
     transition: all .2s ease-in-out;
+    filter: invert(1);
 }  
 
-.footer .logo:hover{
-    filter:  brightness(0) invert(0);
+.footer-links .logo:hover{
+    filter: invert(0);
+    transform: scale(1.15);
 }
-
-#content {
-    height: 80vh;
-    width: 100%;
-    background-color: #ebebeb;
+.footer p{
+    margin-bottom: 0;
 }
 
 .profile-pic{
     border-radius: 50%;
 }
 
-.container{
-    height:100%;
-}
-
 .row {
     display: flex;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
-.full-h{
-    height:100%;
+.landing-page-description{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.PR-5 {
-    padding-right: 5rem;
+
+.navbar{
+    padding:8px 16px;
+    background-color: #133667;
+    width:100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.navbar-container{
+    display:flex;   
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.content-container{
+    display:flex;   
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    min-height:1100px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+@media (min-width: 1200px){
+    .navbar-container {
+        max-width: 1800px;
+    }
+
+    .content-container {
+        max-width:1800px;
+    }
+}
+
+.wrapper{
+    display: flex;
+    background-color:#fff; 
+    position: relative;  
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.landing-page-description .name h2 {
+    font-size: 50px;
+    font-weight:600;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    color: #344354;
+    border-right: .15em solid black; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em;
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+.landing-page-description p{
+    text-align: justify;
+    font-size:40px
+}
+
+.contact-me-footer{
+    font-weight: 600;
+    padding: 30px;
 }
