@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid full-h">
+    <div class="row">
+      <div class="col-8 full-h d-flex flex-column align-items-center  justify-content-center">
+        <h2>Hi my name is {{ name }}</h2>
+        <p>{{ major }}</p>
+      </div>
+      <div class="col-4 full-h d-flex align-items-center justify-content-center PR-5">
+        <img class="profile-pic" src={{ profile_photo}} width="500px">
+      </div>
+    </div>
+  </div>
+{% endblock %}
