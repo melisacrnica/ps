@@ -1,39 +1,60 @@
-# Production Engineering - Week 1 - Portfolio Site
 
-Welcome to the MLH Fellowship! During Week 1, you'll be working with Flask to build a portfolio site. This site will be the foundation for activities we do in future weeks so spend time this week making it your own and reflect your personality!
+# Technichal Tigers Portfolio Template
 
-## Tasks
+This is a Portfolio website template created by Technichal-Tigers team (Pod 22.SUM.23)!<br />
+To view our website, please follow instructions down below.
 
-Once you've got your portfolio downloaded and running using the instructions below, you should attempt to complete the following tasks.
+![License](https://img.shields.io/github/license/calvh/mlh-portfolio)
 
-For each of these tasks, you should create an [Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and work on them in a new [branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches). When the task has been completed, you should open a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and get another fellow in your pod to give you feedback before merging it in.
+## Table of contents
 
-*Note: Make sure to include a link to the Issue you're working on inside of your Pull Request so your reviewer knows what you're working on!*
+- [Technichal Tigers Portfolio Template](#technichal-tigers-portfolio-template)
+  - [Table of contents](#table-of-contents)
+  - [What it does?](#what-it-does)
+  - [How we built it](#how-we-built-it)
+  - [Challenges we ran into](#challenges-we-ran-into)
+  - [Accomplishments that we're proud of](#accomplishments-that-were-proud-of)
+  - [What we learned?](#what-we-learned)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [What's next for Technichal Tigers Portfolio Template](#whats-next-for-technichal-tigers-portfolio-template)
+  - [Authors](#authors)
+## What it does?
+This is a template for a portfolio website that is easy to use, set up, 
+and customizable so every one can use it and make it their own in order 
+to show their skills and work on the web.
 
-### GitHub Tasks
-- [x] Create Issues for each task below
-- [x] Work on each task in a new branch
-- [x] Open a Pull Request when a task is finished to get feedback
+## How we built it
+Platforms we used for collaborating:
+ - Github 
+ - Discord
 
-### Portfolio Tasks
-- [x] Add a photo of yourself to the website
-- [x] Add an "About youself" section to the website.
-- [x] Add your previous work experiences
-- [x] Add your hobbies (including images)
-- [x] Add your current/previous education
-- [x] Add a map of all the cool locations/countries you visited
+Technologies we used for building the website:
+ - Flask
+ - HTML5
+ - CSS3 and Bootstrap5
+ - Javascript 
 
-### Flask Tasks
-- [x] Get your Flask app running locally on your machine using the instructions below.
-- [x] Add a template for adding multiple work experiences/education/hobbies using [Jinja](https://jinja.palletsprojects.com/en/3.0.x/api/#basics)
-- [x] Create a new page to display hobbies.
-- [x] Add a menu bar that dynamically displays other pages in the app
+## Challenges we ran into
+ - The team had no previous experience using either Flask nor Jinja
 
+## Accomplishments that we're proud of
+ - We were able to learned how Jinja and Flask work.
+ - The overall styling of the website
+ - The software architecture and how simple is to change the data from a json file, since we don't have to touch code in order to display different data over the website.
 
-## Getting Started
-
-You don't need to submit any pull requests to thie repository. You need to do all your work here.
-
+##  What we learned?
+ - Flask
+    - How Flask routing  system works 
+    - How to pass data through jinja
+    - How to design Jinja templates
+ - Styling
+    - How to used Bootstrap5
+ - GitHub
+    - The importance of branching
+    - The importance of defining issues 
+    - How to create a pull request
+    - How to review a pull request and give it some feedback
 ## Installation
 
 Make sure you have python3 and pip installed
@@ -71,9 +92,11 @@ You should get a response like this in the terminal:
 You'll now be able to access the website at `localhost:5000` or `127.0.0.1:5000` in the browser! 
 
 *Note: The portfolio site will only work on your local machine while you have it running inside of your terminal. We'll go through how to host it in the cloud in the next few weeks!* 
+    
+## What's next for Technichal Tigers Portfolio Template
 
-## Contributing
+We are interested in improving the web design, to make it more responsive, and we are also planning to implement a blog section and a contact me form.
+## Authors
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+- [@BrandonMagana](https://github.com/BrandonMagana)
+- [@MelisaCrnica](https://github.com/melisacrnica)
