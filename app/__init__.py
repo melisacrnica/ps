@@ -1,29 +1,27 @@
 import os
 from flask import Flask, render_template, request
 from dotenv import load_dotenv
-
+import random
+from app.Data_Loader import Data_Loader
 load_dotenv()
 app = Flask(__name__)
 
-description = "I'm a second year college student majoring in Software Engineering, and I am aproduction Engineer Fellow at MLH this summer!"
+
+DATA = Data_Loader()    
 
 
 @app.route('/')
 def landing_page():
-    return render_template('landingPage.html', name= 'Brandon Magaña', description = description,profile_photo='static/img/logo.jpg', landing_page=True, url=os.getenv('URL'))
+    return render_template('landingPage.html', data = DATA.landing_page_data, landing_page=True, url=os.getenv('URL'))
 
 @app.route('/about-me')
 def about_me():
-    return render_template('about-me.html', landing_page=False, url=os.getenv('URL'))
+    return render_template('about-me.html', data= DATA.about_me_data, url=os.getenv('URL'))
 
-@app.route('/contact-me')
-def contact_me():
-    return render_template('contact-me.html', url=os.getenv('URL'))
+@app.route('/education-and-work-expirience')
+def projects():
+    return render_template('education-and-work-expirience.html', data = DATA.expiriences_data, url=os.getenv('URL'))
 
 @app.route('/projects')
-def projects():
-    return render_template('projects.html', url=os.getenv('URL'))
-
-@app.route('/education')
 def education():
-    return render_template('education.html', url=os.getenv('URL'))
+    return render_template('projects.html', data = DATA.projects_data, url=os.getenv('URL'))

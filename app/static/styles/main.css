@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *{
     margin: 0;
     font-family:'Lato', sans-serif;
@@ -193,4 +193,67 @@ a, a:hover, a:focus, a:active {
 .contact-me-footer{
     font-weight: 600;
     padding: 30px;
+}
+
+.content{
+    width:80%;
+    z-index: 1;
+}
+
+.project-logo{
+    border-radius:100px;
+}
+
+.projects{
+    background-color: #FFF;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.project{
+    background-color: #F7F6F6;
+}
+
+.rounded{
+    border-radius: 1.5rem !important;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+.italic-text{
+    font-style: italic !important;
+}
+
+.container{
+    min-height: 1200px;
+}
+
+.link{
+    transition: all .3s ease-in-out;
+}
+
+.link:hover{
+    transform: scale(1.4);
+}
+
+.about-me-text{
+    text-align: justify;
+    width: 50%;
+}
+
+.w-80{
+    width: 80%;
+    margin:0 auto;
+}
+
+.list li{
+    list-style-type:disc;
+    margin: 10px;
+    font-size:20px
+}
+
+#map{
+    height:500px;
 }

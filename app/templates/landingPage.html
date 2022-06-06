@@ -7,14 +7,14 @@
       <div class="landing-page-description">
         <p>Hey there my name is </p>
         <div class="name">
-          <h2> >{{ name }} </h2>
+          <h2> >{{ data['name'] }} </h2>
         </div>
-        <p>{{description}} </p>
+        <p>{{ data['description'] }} </p>
       </div>
     </div>
 
-    <div class="col-6 d-flex  justify-content-center">
-      <img class="profile-pic" src={{ profile_photo}} width="500px">
+    <div class="col-6 d-flex  justify-content-end">
+      <img class="profile-pic" src={{ data['profile_photo']}} width="500px">
     </div>
   
   </div>
