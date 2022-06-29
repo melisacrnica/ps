@@ -9,24 +9,17 @@
       "ending_date": "August 2022",
       "photo": "./static/img/mlh.jpeg"
     },
-    {
-      "title": "Facebook University",
-      "position": "Software Developer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend, metus eget porttitor euismod, dolor ligula iaculis erat, in efficitur dui enim eu orci. Nullam congue tincidunt ultricies. Ut interdum commodo lorem vel pharetra. Sed posuere volutpat dolor vel posuere. Sed interdum libero tortor, vel condimentum diam pulvinar in. Curabitur fermentum felis mauris, at finibus orci rutrum tincidunt. Vestibulum purus turpis, tempus ac mollis scelerisque, porttitor quis diam. In vel eleifend neque. Etiam sit amet pulvinar massa.",
-      "starting_date": "June 2020",
-      "ending_date": "August 2020",
-      "photo": "./static/img/mlh.jpeg"
-    }
+  
   ],
 
   "educational_expiriences": 
   [
     {
-      "title": "Tecnológico de Monterrey",
-      "position": "Software engineering",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend, metus eget porttitor euismod, dolor ligula iaculis erat, in efficitur dui enim eu orci. Nullam congue tincidunt ultricies. Ut interdum commodo lorem vel pharetra. Sed posuere volutpat dolor vel posuere. Sed interdum libero tortor, vel condimentum diam pulvinar in. Curabitur fermentum felis mauris, at finibus orci rutrum tincidunt. Vestibulum purus turpis, tempus ac mollis scelerisque, porttitor quis diam. In vel eleifend neque. Etiam sit amet pulvinar massa.",
+      "title": "University of Utah",
+      "position": "BS/MS in Mathematics, Computer Science",
+      "description": "",
       "starting_date": "August 2020",
-      "ending_date": "June 2024 (expected)",
+      "ending_date": "June 2025 (expected)",
       "photo": "./static/img/mlh.jpeg"
     }
   ]

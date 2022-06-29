@@ -1,9 +1,7 @@
 {
-    "name": "Brandon Magaña", 
-    "description": "I'm a second year college student majoring in Software Engineering, and I am aproduction Engineer Fellow at MLH this summer!",
+    "name": "Melisa Crnica", 
+    "description": "I'm a rising junior majoring in math and computer science, and I am a production Engineer Fellow at MLH this summer!",
     "profile_photo": "./static/img/logo.jpg",   
-    "github": "https://github.com/BrandonMagana",
-    "instagram": "https://www.instagram.com/brandon.mgn/",
-    "linkedin": "https://www.linkedin.com/in/brandon-magana/",
-    "twitter": "https://twitter.com/MLHacks"
+    "github": "https://github.com/melisacrnica",
+    "linkedin": "https://www.linkedin.com/in/melisa-crnica-555318223/",
 }

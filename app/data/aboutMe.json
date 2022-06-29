@@ -1,6 +1,6 @@
 {
-  "name": "Brandon Josué Magaña Mendoza",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend, metus eget porttitor euismod, dolor ligula iaculis erat, in efficitur dui enim eu orci. Nullam congue tincidunt ultricies. Ut interdum commodo lorem vel pharetra. Sed posuere volutpat dolor vel posuere.In vel eleifend neque. Etiam sit amet pulvinar massa.",
-  "hobbies": [ "Soccer","Gym", "Ride Bikes"],
-  "skills":["C++", "python", "Nodejs"]
+  "name": "Melisa Crnica",
+  "bio": "I'm a rising junior at the University of Utah studying math and computer science. My main interests are big data, software engineering, and cybersecurity, and in my free time, I like contributing to open source. ",
+  "hobbies": [ "Swimming","Gym", "Hiking"],
+  "skills":["JavaScipt", "Python", "Nodejs", "React", "R"]
 }

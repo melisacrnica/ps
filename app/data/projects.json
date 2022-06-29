@@ -1,17 +1,4 @@
 {
   "projects": 
-  [
-    {
-      "title": "Parallel Syntax Highlighter",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend, metus eget porttitor euismod, dolor ligula iaculis erat, in efficitur dui enim eu orci. Nullam congue tincidunt ultricies. Ut interdum commodo lorem vel pharetra. Sed posuere volutpat dolor vel posuere. Sed interdum libero tortor, vel condimentum diam pulvinar in. Curabitur fermentum felis mauris, at finibus orci rutrum tincidunt. Vestibulum purus turpis, tempus ac mollis scelerisque, porttitor quis diam. In vel eleifend neque. Etiam sit amet pulvinar massa.",
-      "link": "https://github.com/BrandonMagana/Parallel-Syntax-Highlighter",
-      "photo": "./static/img/mlh.jpeg"
-    },
-    {
-      "title": "Study Flash Cards",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend, metus eget porttitor euismod, dolor ligula iaculis erat, in efficitur dui enim eu orci. Nullam congue tincidunt ultricies. Ut interdum commodo lorem vel pharetra. Sed posuere volutpat dolor vel posuere. Sed interdum libero tortor, vel condimentum diam pulvinar in. Curabitur fermentum felis mauris, at finibus orci rutrum tincidunt. Vestibulum purus turpis, tempus ac mollis scelerisque, porttitor quis diam. In vel eleifend neque. Etiam sit amet pulvinar massa.",
-      "link": "https://github.com/BrandonMagana/StudyFlashCards",
-      "photo": "./static/img/mlh.jpeg"
-    }
-  ]
+
 }
